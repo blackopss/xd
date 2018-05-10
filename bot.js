@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const { Client, Util } = require('discord.js');
 const moment = require('moment');
 const client = new Discord.Client();
 const { PREFIX, GOOGLE_API_KEY } = require('./config2');
