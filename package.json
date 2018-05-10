@@ -2,9 +2,9 @@
   "name": "bytetech",
   "version": "2.1.0",
   "description": "-- AWESOMENESS --",
-  "main": "server.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "ascii-data-table": "^2.1.1",
