@@ -1,4 +1,3 @@
-const { Client, Util } = require('discord.js');
 const Discord = require("discord.js");
 const { PREFIX, GOOGLE_API_KEY } = require('./config2');
 const YouTube = require('simple-youtube-api');
@@ -11,26 +10,7 @@ const youtube = new YouTube(GOOGLE_API_KEY);
 const queue = new Map();
 
 client.on('ready', () => {
-console.log('Logging into discord..');
-console.log(`
-Login successful.
-
------------------
-king mas -
------------------
-${client.user.username}
-
-Connected to:
-${client.guilds.size} servers
-${client.channels.size} channel
-${client.users.size} users
-
-Prefix: ${PREFIX}
------------------
-
-Use this url to bring your bot to a server:
-https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=2146958588585`);
-
+    console.log('I am ready!');
 });
 
 client.on('warn', console.warn);
